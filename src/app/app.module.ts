@@ -10,6 +10,9 @@ import { APP_ROUTES } from './app.routes';
 // Modules
 import { PagesModule } from './pages/pages.module';
 
+// Temp
+import { FormsModule } from '@angular/forms';
+
 // Components after cleaning module
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -19,13 +22,14 @@ import { RegisterComponent } from './login/register.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
