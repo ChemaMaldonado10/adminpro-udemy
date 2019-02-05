@@ -8,6 +8,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // tmp
 import { IncreaserComponent } from '../components/increaser/increaser.component';
@@ -25,7 +26,8 @@ import { ChartsModule } from 'ng2-charts';
         ProgressComponent,
         PagesComponent,
         IncreaserComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
 
     ],
     imports: [
