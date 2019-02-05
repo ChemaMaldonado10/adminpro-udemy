@@ -16,6 +16,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 
 // ng-2 charts
 import { ChartsModule } from 'ng2-charts';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -27,7 +29,9 @@ import { ChartsModule } from 'ng2-charts';
         PagesComponent,
         IncreaserComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
 
     ],
     imports: [
