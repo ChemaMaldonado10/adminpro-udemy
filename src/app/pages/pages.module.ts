@@ -1,4 +1,7 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+
 
 import { PAGES_ROUTES } from './pages.routes';
 import { FormsModule } from '@angular/forms';
@@ -21,6 +24,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
+
 @NgModule({
     declarations: [
         DashboardComponent,
@@ -38,7 +42,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         SharedModule,
         PAGES_ROUTES,
         FormsModule,
-        ChartsModule
+        ChartsModule,
+        HttpClientModule,
+        CommonModule
     ],
     exports: [
         DashboardComponent,
